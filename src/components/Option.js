@@ -3,7 +3,8 @@ import React from "react";
 const Option = (props) => (
     <div>
         {props.optionText}
-        <button 
+        <button
+            className="button--link" 
             onClick={(е) => { 
                 props.handleDeleteOption(props.optionText); 
             }}
